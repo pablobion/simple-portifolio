@@ -12,7 +12,6 @@ export const SocialList = styled.div`
           flex-direction: column;
      }
 `;
-
 export const SocialBox = styled.div`
      display: flex;
      justify-content: center;
@@ -37,10 +36,8 @@ export const SocialBox = styled.div`
           color: black;
      }
 `;
-
 export const SocialTitle = styled.h2`
 `;
-
 export const DivSocialIcons = styled.div`
      width: 100%;
      display: flex;
@@ -60,7 +57,6 @@ export const DivSocialIcons = styled.div`
      }
 
 `;
-
 export const Textarea = styled.input`
      position: absolute;
      top: -50px;
@@ -70,7 +66,6 @@ export const Textarea = styled.input`
      width: 200px;
      resize: none;
 `;
-
 export const SocialIcons = styled.img`
 
      @media (min-width: 0px) and (max-width: 719px) {
@@ -83,7 +78,6 @@ export const SocialIcons = styled.img`
           cursor: pointer;
      }
 `;
-
 export const TooltipSocialWhatsapp = styled.div`
     position: relative;
     display: inline-block;
@@ -180,7 +174,7 @@ export const TooltipSocialEmail = styled.div`
      @media (min-width: 720px) {
           .tooltiptext-social-email {
                visibility: hidden;
-               width: 100px;
+               width: 140px;
                font-size: 14px;
                color: black;
                border: 1px solid;
@@ -191,7 +185,7 @@ export const TooltipSocialEmail = styled.div`
                /* Position the tooltip */
                position: absolute;
                z-index: 1;
-               margin-left: -20px;
+               margin-left: -40px;
                margin-top: 5px;
                top: 100%;
           }

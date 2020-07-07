@@ -41,33 +41,40 @@ export const InsideLogo = styled.div`
 `;
 
 export const DivTopMid = styled.div`
-     width: 100%;
      display: flex;
      flex-direction: column;
      align-items: center;
+     @media (min-width: 0px) and (max-width: 719px) {
+          width: 100%;
+     }
      @media (min-width: 720px) {
+          width: ${px2vw(650)};
           padding-left:  ${px2vw(60)};
           padding-right:  ${px2vw(60)};
      }     
 `;
 
-export const DivTopMidLeft = styled.div`  
+export const DivTopMidLeft = styled.div` 
      @media (min-width: 0px) and (max-width: 719px) {
           width: ${px2vw(1000)};
      }
      @media (min-width: 720px) {
+          display: flex;
+          justify-content: center;
           width: ${px2vw(400)};
      }
 `;
 
 export const DivTopMidRight = styled.div`
-     width: 100%;
+     
      @media (min-width: 0px) and (max-width: 719px) {
+          width: 100%;
           padding-left: ${px2vw(50)};
           padding-right: ${px2vw(50)};
      }  
      @media (min-width: 720px) {
-          padding-top:  ${px2vw(60)};
+          display: flex;
+          justify-content: center;
      }
 `;
 
@@ -76,5 +83,5 @@ export const DivTopRight = styled.div`
 `;
 
 export const DivBottom = styled.div`
-
+     
 `;

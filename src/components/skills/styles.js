@@ -7,10 +7,12 @@ export const Skillslist = styled.div`
     justify-content: space-between;
     @media (min-width: 0px) and (max-width: 719px) {
         margin-top: ${px2vw(200)};
+        
      }
      
      @media (min-width: 720px) {
         margin-top: ${px2vw(150)};
+        width: 600px;
      }
 `;
 

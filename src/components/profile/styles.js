@@ -12,6 +12,9 @@ export const DivProfile = styled.div`
 
 export const ProfileName = styled.h1`
     font-size: ${px2vw(120)};
+    @media (min-width: 0px) and (max-width: 719px) {
+        margin-top: ${px2vw(100)};
+    }
 
     @media (min-width: 720px) {
         font-size: ${px2vw(32)};

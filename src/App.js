@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
 
 import {
   DivApp,
@@ -31,6 +31,9 @@ import { config } from './config/config'
 function App() {
   const configs = config()
 
+ 
+
+
   return (
     <div className="container">
       <GlobalStyle />
@@ -54,9 +57,9 @@ function App() {
           </DivTopRight>
         </DivTopSide>
 
-        {/* <DivBottom>
+        <DivBottom>
             <Portifolio projetos={configs.projetos} />
-        </DivBottom> */}
+        </DivBottom>
 
       </DivApp>
 

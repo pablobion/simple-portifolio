@@ -5,7 +5,7 @@ export const SocialList = styled.div`
      display: flex; 
      @media (min-width: 0px) and (max-width: 719px) {
           flex-direction: column;
-          margin-top: ${px2vw(200)};
+          margin-top: 70px;
           align-items: center;
      }
      @media (min-width: 720px) {
@@ -36,7 +36,7 @@ export const SocialBox = styled.div`
           color: black;
      }
 `;
-export const SocialTitle = styled.h2`
+export const SocialTitle = styled.h3`
 `;
 export const DivSocialIcons = styled.div`
      width: 100%;
@@ -59,12 +59,17 @@ export const DivSocialIcons = styled.div`
 `;
 export const Textarea = styled.input`
      position: absolute;
-     top: -50px;
+     color: transparent;
+     background: transparent;
      border: none;
      text-align: center;
      padding: 10px;
      width: 200px;
      resize: none;
+
+     @media (min-width: 0px) and (max-width: 719px) {
+          left: -200px;
+     }
 `;
 export const SocialIcons = styled.img`
 

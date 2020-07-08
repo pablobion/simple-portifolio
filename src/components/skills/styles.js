@@ -82,8 +82,14 @@ export const ToolTip = styled.div`
         }
 
         &:hover .tooltiptext {
+            animation: fadeIn 0.3s ease-in-out;
             visibility: visible;
         }
+
+        @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+     }
      }
 
     

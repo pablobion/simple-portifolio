@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import { changecolor, changecolorButtonHeader } from './scripts/changecolor'
 import { changeside } from './scripts/changeside'
@@ -7,10 +7,12 @@ import { changedirection } from './scripts/changedirection'
 import { Parallax } from 'react-scroll-parallax';
 import Tilt from 'react-parallax-tilt'
 
+
 import {
      DivPortifolioList,
      DivPortifolioTop,
      DivPortifolioButton,
+     TitlePortifolio,
      PortifolioButton,
      DivPortifolioBottom,
      PortifolioList,
@@ -30,45 +32,48 @@ import {
 function Portifolio(props) {
 
      const projetos = props.projetos
-     const [scale, setScale] = useState(1.15);
-     
+     const [scale, setScale] = useState(1);
+
+
+
 
      return (
           <DivPortifolioList>
                <DivPortifolioTop>
                     <DivPortifolioButton>
-                         <PortifolioButton color={changecolorButtonHeader()}><h3>Portifolio</h3></PortifolioButton>
+                         <PortifolioButton color={changecolorButtonHeader()}><TitlePortifolio>Portfólio</TitlePortifolio></PortifolioButton>
                     </DivPortifolioButton>
                </DivPortifolioTop>
-               
-                         <DivPortifolioBottom>
-                              <PortifolioList>
-                              {projetos.map(elem =>
-                              
+
+               <DivPortifolioBottom>
+                    <PortifolioList>
+                         {projetos.map(elem =>
+                              <Tilt tiltEnable={false} scale={scale} transitionSpeed={9500}>
+                                   {/* <Parallax key={elem.nome} className="custom-class" x={[-10, 5]} tagOuter="figure"> */}
                                    <DivProjeto direction={changedirection()} side={changeside()} >
-                                        <Parallax key={elem.nome} className="custom-class" x={[-17, 4]} tagOuter="figure">
                                         <DivProjetoLeft>
-                                             <Parallax key={elem.nome} className="custom-class" x={[1, 14]} tagOuter="figure">
                                              <DivNomeProjeto>
                                                   <NomeProjeto color={changecolor()}>{elem.nome}</NomeProjeto>
                                              </DivNomeProjeto>
-                                             </Parallax>
                                              <DivDescriçaoProjeto>
                                                   <DescriçaoProjeto>{elem.descrição}</DescriçaoProjeto>
                                              </DivDescriçaoProjeto>
                                         </DivProjetoLeft>
-                                        </Parallax>
                                         <DivProjetoRight>
-                                             <Projeto width="640" height="320" src={elem.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  color={changecolor()}/>
+                                             <DivProjetoRight>
+                                                  <Projeto width="100%" height="340" src={elem.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" color={changecolor()} />
+                                             </DivProjetoRight>
                                         </DivProjetoRight>
                                    </DivProjeto>
-                              )}
-                              </PortifolioList>
+                                   {/* </Parallax> */}
+                              </Tilt>
+                         )}
+                    </PortifolioList>
 
-                              
-                         </DivPortifolioBottom>
-               
-          </DivPortifolioList>
+
+               </DivPortifolioBottom>
+
+          </DivPortifolioList >
      )
 }
 

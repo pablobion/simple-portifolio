@@ -22,17 +22,14 @@ import arrow from './assets/arrow.svg'
 import Skills from './components/skills/skills'
 import Social from './components/social/social'
 import About from './components/about/about'
-import Portifolio from './components/portifolio/portifolio'
+import Portfolio from './components/portfolio/portfolio.jsx'
 
 import ScrollToTop from 'react-scroll-up'
-
 import { config } from './config/config'
+
 
 function App() {
   const configs = config()
-
- 
-
 
   return (
     <div className="container">
@@ -58,7 +55,7 @@ function App() {
         </DivTopSide>
 
         <DivBottom>
-            <Portifolio projetos={configs.projetos} />
+            <Portfolio projetos={configs.projetos} />
         </DivBottom>
 
       </DivApp>

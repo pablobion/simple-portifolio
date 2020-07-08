@@ -1,11 +1,6 @@
 import styled from 'styled-components';
-import px2vw from "../../utils/px2vw";
-/*
- @media (min-width: 0px) and (max-width: 719px) {
- }
- @media (min-width: 720px) {
- }
- */
+
+
 export const DivPortifolioList = styled.div`
     display: flex;
     flex-direction: column;

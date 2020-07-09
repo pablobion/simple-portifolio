@@ -20,7 +20,9 @@ export const DivPortifolioTop = styled.div`
 
 
 export const DivPortifolioButton = styled.div`
- 
+     @media (min-width: 0px) and (max-width: 719px) {
+          margin-bottom: 30px;
+     }
 `;
 
 export const TitlePortifolio = styled.h3`

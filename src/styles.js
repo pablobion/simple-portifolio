@@ -85,3 +85,7 @@ export const DivTopRight = styled.div`
 export const DivBottom = styled.div`
      
 `;
+
+export const CreateBy = styled.div`
+     margin-top: 80px;
+`;

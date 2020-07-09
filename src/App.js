@@ -10,7 +10,8 @@ import {
   DivTopMidLeft,
   DivTopMidRight,
   DivTopRight,
-  DivBottom
+  DivBottom,
+  CreateBy
 } from './styles'
 
 import GlobalStyle from './global'
@@ -56,10 +57,11 @@ function App() {
 
         <DivBottom>
             <Portfolio projetos={configs.projetos} />
+            
         </DivBottom>
-
+        <CreateBy><h6>Created by </h6><a href="https://www.linkedin.com/in/pablobion/">Pablo Bion</a></CreateBy>
       </DivApp>
-
+      
       <div className='up-button'>
         <ScrollToTop showUnder={160}>
           <img src={arrow}></img>
@@ -67,7 +69,7 @@ function App() {
         </ScrollToTop>
       </div>
     </div >
-
+  
   );
 }
 

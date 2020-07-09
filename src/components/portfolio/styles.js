@@ -72,7 +72,7 @@ export const DivProjeto = styled.div`
      width: 100%;
 
      @media (min-width: 0px) and (max-width: 719px) {
-          margin-top: 80px;
+          margin-bottom: 80px;
         flex-direction: column;
         align-items: center;
     }

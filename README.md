@@ -3,11 +3,8 @@
   Gui's Portfolio
 </h3>
 
-<p align="center">The best way to schedule your service!</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pablobion/gobarber?color=%23FF9000">
-
   <a href="https://www.linkedin.com/in/pablobion/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pablo%20Bion-%23FF9000">
   </a>
@@ -15,7 +12,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/pablobion/gobarber?color=%23FF9000">
 
   <a href="https://github.com/EliasGcf/gobarber-api/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pablobion/gobarber?color=%23FF9000">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pablobion/gui-portfolio?color=%23FF9000">
   </a>
 
 </p>

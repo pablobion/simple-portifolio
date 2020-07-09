@@ -4,18 +4,8 @@
 </h3>
 
 
-<p align="center">
- 
 
-  <a href="https://www.linkedin.com/in/pablobion/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pablo%20Bion-%23FF9000">
-  </a>
 
-</p>
-
-<p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=Gobarber&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fpablobion%2FGoBarber%2Fmaster%2FInsomnia_2020-06-28.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
 
 ## 💇🏻‍♂️ Sobre o projeto
 

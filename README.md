@@ -1,68 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h3 align="center">
+  Gui's Portfolio
+</h3>
 
-In the project directory, you can run:
+<p align="center">The best way to schedule your service!</p>
 
-### `yarn start`
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pablobion/gobarber?color=%23FF9000">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://www.linkedin.com/in/pablobion/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pablo%20Bion-%23FF9000">
+  </a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/pablobion/gobarber?color=%23FF9000">
 
-### `yarn test`
+  <a href="https://github.com/EliasGcf/gobarber-api/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pablobion/gobarber?color=%23FF9000">
+  </a>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</p>
 
-### `yarn build`
+<p align="center">
+  <a href="#%EF%B8%8F-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p id="insomniaButton" align="center">
+  <a href="https://insomnia.rest/run/?label=Gobarber&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fpablobion%2FGoBarber%2Fmaster%2FInsomnia_2020-06-28.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 💇🏻‍♂️ Sobre o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esse projeto foi feito para ajudar um amigo próximo, a ideia era criar um site/portfolio que substituisse o portfolio antigo.
 
-### `yarn eject`
+Design simples, com formas geometricas e colorido foi a ideia para criação, que comporte o portfolio em formato de lista.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🚀 Tecnologias
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React
+Styled-Components
+Parallax
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 💻 Clonando repositório e executando
 
-## Learn More
+**Clonando o projeto**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+$ git clone https://github.com/pablobion/gui-portfolio.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**Follow the steps below**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```bash
+# Instalando as dependencias
+$ yarn
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```bash
+# Iniciando o projeto
+$ yarn start
 
-### Making a Progressive Web App
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Criado por 💜 by Pablo Bion 👋 [See my linkedin](https://www.linkedin.com/in/eliasgcf/)

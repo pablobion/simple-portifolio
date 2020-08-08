@@ -8,7 +8,7 @@ export const DivPortifolioList = styled.div `
           margin-top: 70px;
      }
      @media (min-width: 720px) {
-          margin-top: 100px;
+          margin-top: 80px;
      }
 `;
 
@@ -21,7 +21,7 @@ export const DivPortifolioTop = styled.div `
 
 export const DivPortifolioButton = styled.div `
      @media (min-width: 0px) and (max-width: 719px) {
-          margin-bottom: 30px;
+          margin-bottom: 50px;
      }
 `;
 
@@ -74,14 +74,14 @@ export const DivProjeto = styled.div `
      width: 100%;
 
      @media (min-width: 0px) and (max-width: 719px) {
-          margin-bottom: 80px;
+          margin-bottom: 150px;
         flex-direction: column;
         align-items: center;
     }
     @media (min-width: 720px) {
-     margin-top: 210px;
-     flex-direction: ${props => props.direction};
-     justify-content: ${props => props.side};
+          margin-top: 190px;
+          flex-direction: ${props => props.direction};
+          justify-content: ${props => props.side};
     }
     
 

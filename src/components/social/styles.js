@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import px2vw from "../../utils/px2vw";
 
-export const SocialList = styled.div`
+export const SocialList = styled.div `
      display: flex; 
      @media (min-width: 0px) and (max-width: 719px) {
           flex-direction: column;
@@ -12,7 +12,7 @@ export const SocialList = styled.div`
           flex-direction: column;
      }
 `;
-export const SocialBox = styled.div`
+export const SocialBox = styled.div `
      display: flex;
      justify-content: center;
 
@@ -36,15 +36,15 @@ export const SocialBox = styled.div`
           color: black;
      }
 `;
-export const SocialTitle = styled.h3`
+export const SocialTitle = styled.h3 `
 `;
-export const DivSocialIcons = styled.div`
+export const DivSocialIcons = styled.div `
      width: 100%;
      display: flex;
      justify-content: center;
      @media (min-width: 0px) and (max-width: 719px) {
           flex-direction: row;
-          margin-top: ${px2vw(100)};
+          margin-top: 40px;
           & div {
                margin-left: ${px2vw(80)};
                margin-right: ${px2vw(80)};
@@ -57,7 +57,7 @@ export const DivSocialIcons = styled.div`
      }
 
 `;
-export const Textarea = styled.input`
+export const Textarea = styled.input `
      position: absolute;
      color: transparent;
      background: transparent;
@@ -71,7 +71,7 @@ export const Textarea = styled.input`
           left: -200px;
      }
 `;
-export const SocialIcons = styled.img`
+export const SocialIcons = styled.img `
 
      @media (min-width: 0px) and (max-width: 719px) {
           width: 40px;
@@ -83,7 +83,7 @@ export const SocialIcons = styled.img`
           cursor: pointer;
      }
 `;
-export const TooltipSocialWhatsapp = styled.div`
+export const TooltipSocialWhatsapp = styled.div `
     position: relative;
     display: inline-block;
 
@@ -146,7 +146,7 @@ export const TooltipSocialWhatsapp = styled.div`
      }
 
 `;
-export const TooltipSocialEmail = styled.div`
+export const TooltipSocialEmail = styled.div `
     position: relative;
     display: inline-block;
 
@@ -208,7 +208,7 @@ export const TooltipSocialEmail = styled.div`
           100% { opacity: 1; }
      }
 `;
-export const TooltipSocialLinkedin = styled.div`
+export const TooltipSocialLinkedin = styled.div `
     position: relative;
     display: inline-block;
 
@@ -270,4 +270,3 @@ export const TooltipSocialLinkedin = styled.div`
           100% { opacity: 1; }
      }
 `;
-

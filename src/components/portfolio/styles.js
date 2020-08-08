@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const DivPortifolioList = styled.div`
+export const DivPortifolioList = styled.div `
     display: flex;
     flex-direction: column;
     @media (min-width: 0px) and (max-width: 719px) {
@@ -12,26 +12,26 @@ export const DivPortifolioList = styled.div`
      }
 `;
 
-export const DivPortifolioTop = styled.div`
+export const DivPortifolioTop = styled.div `
      width: 100%;
      display: flex;
      justify-content: center;
 `;
 
 
-export const DivPortifolioButton = styled.div`
+export const DivPortifolioButton = styled.div `
      @media (min-width: 0px) and (max-width: 719px) {
           margin-bottom: 30px;
      }
 `;
 
-export const TitlePortifolio = styled.h3`
+export const TitlePortifolio = styled.h3 `
      @media (min-width: 0px) and (max-width: 719px) {
           font-size: 20px;
      }
 `;
 
-export const PortifolioButton = styled.div`
+export const PortifolioButton = styled.div `
      border: 1px solid;
      @media (min-width: 0px) and (max-width: 719px) {
      display: flex;
@@ -57,17 +57,17 @@ export const PortifolioButton = styled.div`
      }
 `;
 
-export const DivPortifolioBottom = styled.div`
+export const DivPortifolioBottom = styled.div `
      width:100%;
 `;
 
-export const PortifolioList = styled.div`
+export const PortifolioList = styled.div `
      display: flex;
      flex-direction: column;
      align-items: center;
 `;
 
-export const DivProjeto = styled.div`
+export const DivProjeto = styled.div `
      display: flex;
      /* box-shadow: 6px 6px 1px ${props => props.color}; */
 
@@ -79,7 +79,7 @@ export const DivProjeto = styled.div`
         align-items: center;
     }
     @media (min-width: 720px) {
-     margin-top: 100px;
+     margin-top: 210px;
      flex-direction: ${props => props.direction};
      justify-content: ${props => props.side};
     }
@@ -87,7 +87,7 @@ export const DivProjeto = styled.div`
 
 `;
 
-export const DivProjetoLeft = styled.div`
+export const DivProjetoLeft = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +98,7 @@ export const DivProjetoLeft = styled.div`
     }
 `;
 
-export const DivNomeProjeto = styled.div`
+export const DivNomeProjeto = styled.div `
      @media (min-width: 0px) and (max-width: 719px) {
           margin-left: 30px;
           margin-right: 30px;
@@ -107,12 +107,12 @@ export const DivNomeProjeto = styled.div`
     }
 `;
 
-export const NomeProjeto = styled.h2`
+export const NomeProjeto = styled.h2 `
      font-size: 20px;
      border-bottom: 3px solid ${props => props.color};
 `;
 
-export const DivDescriçaoProjeto = styled.div`
+export const DivDescriçaoProjeto = styled.div `
      text-align: justify;
      text-align-last: justify;
      @media (min-width: 0px) and (max-width: 719px) {
@@ -125,17 +125,17 @@ export const DivDescriçaoProjeto = styled.div`
     }
 `;
 
-export const DescriçaoProjeto = styled.small`
+export const DescriçaoProjeto = styled.small `
 
 `;
 
-export const DivProjetoRight = styled.div`
+export const DivProjetoRight = styled.div `
      display: flex;
      align-items: flex-end;
      justify-content: flex-end;
 
 `;
-export const Projeto = styled.iframe`
+export const Projeto = styled.iframe `
      box-shadow: 6px 6px 1px ${props => props.color};
     @media (min-width: 0px) and (max-width: 719px) {
           height: 175px;

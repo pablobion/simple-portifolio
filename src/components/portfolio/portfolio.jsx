@@ -64,7 +64,7 @@ function Portifolio(props) {
 
      useEffect(() => { //Roda 1x identificando o tamanho da tela
           if (size.width < 719) { // se for de celular 
-               setScale(1)
+               setScale(0.1)
           } else { //se não for de celular;
           }
      }, []);
@@ -97,7 +97,7 @@ function Portifolio(props) {
                                              </DivProjetoRight>
                                         </DivProjeto>
                                    }{size.width >= 719 &&
-                                        <Tilt tiltEnable={false} scale={scale} transitionSpeed={9500}>
+                                        <Tilt tiltEnable={false} scale={scale} transitionSpeed={300}>
                                              <Parallax key={elem.nome} className="custom-class" x={[-12, -3]} tagOuter="figure">
                                                   <DivProjeto direction={changedirection()} side={changeside()} >
                                                        <DivProjetoLeft>

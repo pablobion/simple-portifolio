@@ -4,13 +4,17 @@ const config = () => {
      //Sub nick.
      const subname = 'Assistência de Produção e Direção e Edição de Vídeo' 
      //Sua descrição
-     const descrição = `Tenho 21 anos, bacharel em Cinema e Audiovisual pela Universidade São Judas Tadeu - Campus Unimonte. Já integrei a equipe de curta-metragens, videoclipes, série de animação, programa de TV, entre outros. Atualmente trabalho como editor no programa de culinária Sabores apresentado por Chef Welington Almeida e exibido em alguns estados da região norte e nordeste pela Rede Bandeirantes. Considero-me uma pessoa criativa, proativa e dedicada. Estou sempre em busca de novas experiências e conhecimentos!`
+     const descrição = `Tenho 22 anos, bacharel em Cinema e Audiovisual pela Universidade São Judas Tadeu - Campus Unimonte. Já integrei a equipe de curta-metragens, videoclipes, série de animação, programa de TV, entre outros. Atualmente trabalho como editor no programa de culinária Sabores apresentado por Chef Welington Almeida e exibido em alguns estados da região norte e nordeste pela Rede Bandeirantes. Considero-me uma pessoa criativa, proativa e dedicada. Estou sempre em busca de novas experiências e conhecimentos!`
 
      const numerowpp = '5513981823482' //inserir o 55 codigo brasil. ex 5548991252555
      const mensagemwpp = `Olá Guilherme, te encontrei através do seu site, podemos conversar?` //Essa sera a mensagem que ira para o whatsapp
 
      const projetos = [
-
+          {
+               nome: `Fairy Goat - Feast`, 
+               descrição: `Videoclipe da música Feast para a Fairy Goat, projeto do artista independente Lucas Nadal. Exerci a função de diretor e editor desse projeto.`,
+               video: 'https://www.youtube.com/watch?v=AEBqD3xXVek&feature=youtu.be',
+          },
           {
                nome: `Programa Sabores com Chef Welington Almeida`, 
                descrição: `O Chef Welington prepara pratos típicos das regiões Norte e Nordeste do país. Nesse projeto sou responsável pela edição, finalização, corte e separação em blocos, edição de chamadas e matérias do programa.`,

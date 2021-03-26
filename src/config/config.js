@@ -13,7 +13,7 @@ const config = () => {
           {
                nome: `Fairy Goat - Feast`, 
                descrição: `Videoclipe da música Feast para a Fairy Goat, projeto do artista independente Lucas Nadal. Exerci a função de diretor e editor desse projeto.`,
-               video: 'https://www.youtube.com/watch?v=AEBqD3xXVek&feature=youtu.be',
+               video: 'https://www.youtube.com/embed/AEBqD3xXVek',
           },
           {
                nome: `Programa Sabores com Chef Welington Almeida`, 

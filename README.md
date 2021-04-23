@@ -13,6 +13,8 @@ Esse projeto foi feito para ajudar um amigo próximo, a ideia era criar um site/
 
 Design simples, com formas geometricas e colorido foi a ideia para criação, que comporte o portfolio em formato de lista.
 
+## link: guilhermeayres.com
+
 ## 🚀 Tecnologias
 
 React

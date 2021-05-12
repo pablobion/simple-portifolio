@@ -11,6 +11,11 @@ const config = () => {
 
      const projetos = [
           {
+               nome: `Vídeo Receitas SOCOCO`, 
+               descrição: `Neste projeto fiz a edição do vídeo dessa receita para as redes sociais da marca Sococo.`,
+               video: 'https://www.youtube.com/embed/NFLld-Ku7BI',
+          },
+          {
                nome: `Fairy Goat - Feast`, 
                descrição: `Videoclipe da música Feast para a Fairy Goat, projeto do artista independente Lucas Nadal. Exerci a função de diretor e editor desse projeto.`,
                video: 'https://www.youtube.com/embed/AEBqD3xXVek',
@@ -55,6 +60,11 @@ const config = () => {
                descrição: `"Deadline" nasceu de um trabalho de faculdade onde tínhamos que criar um nanometragem de terror de 15 segundos. Fiz a direção, o roteiro e a edição.
 "Deadline" foi indicado ao festival internacional "15 Second Horror Film Challenge" onde ficou no Top 10 de diversas categorias.`,
                video: `https://www.youtube.com/embed/eYcwzM-wSoo`,
+          },
+          {
+               nome: `Vídeos Canal Nutrição Nua & Crua por Giovana Canno`, 
+               descrição: `Fui responsável pela captação e edição dos vídeos do canal da nutricionista Giovana Canno.`,
+               video: 'https://www.youtube.com/embed/sA6HHZMq1WU',
           },
      ]
 

@@ -11,6 +11,11 @@ const config = () => {
 
      const projetos = [
           {
+               nome: `Lia Clark - Sentadinha Macia`, 
+               descrição: `Videoclipe da cantora drag queen Lia Clark. Fiz a pré-produção de mesa e a assistência de direção nesse projeto.`,
+               video: 'https://www.youtube.com/embed/NNLC0ApF2A0',
+          },
+          {
                nome: `Vídeo Receitas SOCOCO`, 
                descrição: `Neste projeto fiz a edição do vídeo dessa receita para as redes sociais da marca Sococo.`,
                video: 'https://www.youtube.com/embed/NFLld-Ku7BI',
